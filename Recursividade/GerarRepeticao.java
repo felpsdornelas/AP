@@ -18,13 +18,18 @@ public class GerarRepeticao {
      public static void repetirNumeros (int numeroRepeticao, int qntRepeticao){
 
           if(qntRepeticao == 0){
-               return; 
-          }else{
+               System.out.println("");
+          }
+          else if(qntRepeticao == 1){
+               System.out.println(numeroRepeticao);
+          }
+          else{
                System.out.print(numeroRepeticao);
-               if(qntRepeticao > 1 ){
+               if (qntRepeticao > 1) {
                     System.out.print("-");
                }
                repetirNumeros(numeroRepeticao, qntRepeticao - 1);
           }
+
      }
 }
