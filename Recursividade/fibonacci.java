@@ -6,14 +6,12 @@ public class fibonacci {
      public static void main(String[] args) {
 
           int casosTestes;
-          int numero;
 
           System.out.println("Digite a quantidade de casos testes:");
           casosTestes = s.nextInt();
 
           for (int i = 0; i < casosTestes; i++) {
                System.out.println("Digite um número para caucular o fibonacci");
-               numero = s.nextInt();
           }
 
      }
